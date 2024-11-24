@@ -628,7 +628,8 @@ img {
 
   background-color: transparent;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) border-color
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border-color, box-shadow, background-color;
 }
 .modal-form-message::placeholder {
@@ -645,7 +646,7 @@ input[type="checkbox"]:checked
   + .modal-form-agreement-text
   .modal-form-checkbox {
   background-color: #404bbf;
-  fill: #F4F4FD;;
+  fill: #f4f4fd;
   border: none;
 }
 input[type="checkbox"]:checked
@@ -654,14 +655,12 @@ input[type="checkbox"]:checked
   .modal-form-checkbox-icon {
   opacity: 1;
   border: none;
- 
 }
 input[type="checkbox"]:focus-visible
   + .modal-form-agreement-text
-   .modal-form-checkbox {
+  .modal-form-checkbox {
   outline: 1px solid #404bbf;
   outline-offset: 2px;
- 
 }
 .modal-form-checkbox {
   display: inline-flex;
@@ -678,7 +677,7 @@ input[type="checkbox"]:focus-visible
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: border-color, background-color;
+  transition-property: border, background-color, fill;
 }
 
 .modal-form-agreement-link {
