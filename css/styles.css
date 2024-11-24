@@ -641,20 +641,20 @@ img {
 }
 
 /* Custom checkbox */
-input[type="checkbox"]:checked
+.input[type="checkbox"]:checked
   + .modal-form-agreement-text
   .modal-form-checkbox {
   background-color: #404bbf;
   border-color: #404bbf;
 }
-input[type="checkbox"]:checked
+.input[type="checkbox"]:checked
   + .modal-form-agreement-text
   .modal-form-checkbox
   .modal-form-checkbox-icon {
   opacity: 1;
   border: none;
 }
-input[type="checkbox"]:focus-visible
+.input[type="checkbox"]:focus-visible
   + .modal-form-agreement-text
   > .modal-form-checkbox {
   outline: 1px solid #404bbf;
